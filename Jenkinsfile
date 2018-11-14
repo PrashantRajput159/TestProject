@@ -12,8 +12,9 @@ pipeline {
         }
 
         stage('Deploy') {
+            when { currentBuild.result == 'SUCCESS' }
             steps {
-                echo 'Deploying....'
+                sh 'make publish'
             }
         }
     }
