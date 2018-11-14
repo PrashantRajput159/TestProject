@@ -21,6 +21,6 @@ pipeline {
                     sh './health-check.sh'
                 }
             }
-        }
+        } 
     }
 }
