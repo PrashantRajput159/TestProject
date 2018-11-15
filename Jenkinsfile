@@ -11,11 +11,15 @@ pipeline {
             }
         }
 
+         stage('Test') {
+            steps {
+                sh 'echo "Test Success Here"'
+            }
+        } 
+
         stage('Deploy') {
             steps {
-                retry(3) {
-                    sh './deploy.sh'
-                }
+                sh 'echo "Deploy Success Here"'
             }
         } 
     }
