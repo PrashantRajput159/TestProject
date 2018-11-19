@@ -1,0 +1,11 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:26:"/rest/p/versioncontrol_git";}s:8:"_content";s:18:"VersionControl_Git";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"0.5.0";s:2:"st";s:5:"alpha";s:1:"l";s:14:"Apache License";s:1:"m";s:7:"cweiske";s:1:"s";s:46:"Provides OO interface to handle Git repository";s:1:"d";s:135:"A library that provides an object-oriented interface to handle Git repositories.
+  The "git" command is utilized via the wrapper class.";s:2:"da";s:19:"2017-08-23 15:46:16";s:1:"n";s:619:"* Fix bug #18143: Objects now have its name (e.g. filename, directory name..) [ebihara]
+* Fix bug #17911: Adde ability to guess path to git binary [ebihara]
+* Fix bug #17912: Fix unit test that doesn't work on PHPUnit 3.5.0+ [ebihara]
+* Fix bug #17802: Strip terminal escape sequense [ebihara]
+* Fix bug #17911: Fix git paths in unit tests [ebihara]
+* Fix bug #18270: Remove space between key and value of short-form options [farazdagi]
+* Fix date test failures [cweiske]
+* Add paths arguments from Git rev-list [Kirill chEbba Chebunin]
+* Add composer.json [till]
+* Add automated test runs with travis-ci.org [doconnor]";s:1:"f";s:5:"15347";s:1:"g";s:48:"http://pear.php.net/get/VersionControl_Git-0.5.0";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.0.5.0.xml";}}}

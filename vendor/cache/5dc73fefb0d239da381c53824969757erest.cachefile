@@ -1,0 +1,5 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:23:"/rest/p/console_getargs";}s:8:"_content";s:15:"Console_Getargs";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"1.4.0";s:2:"st";s:6:"stable";s:1:"l";s:11:"PHP License";s:1:"m";s:7:"ashnazg";s:1:"s";s:31:"A command-line arguments parser";s:1:"d";s:239:"The Console_Getargs package implements a Command Line arguments and
+parameters parser for your CLI applications. It performs some basic
+arguments validation and automatically creates a formatted help text,
+based on the given configuration.";s:2:"da";s:19:"2018-02-13 08:48:00";s:1:"n";s:66:"- Bug #21250 "Not compatible with PHP 7"
+- PR #3 "fix for PHP 7.2"";s:1:"f";s:5:"18267";s:1:"g";s:45:"http://pear.php.net/get/Console_Getargs-1.4.0";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.4.0.xml";}}}
